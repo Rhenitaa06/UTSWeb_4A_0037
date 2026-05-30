@@ -39,3 +39,17 @@ nav a:hover {
 section {
   padding: 90px 0;
 }
+
+/* Section About */
+#About {
+  background-image: url(bg3.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+
+}
+
+.hero-content {
+  padding: 120px 0 80px;
+}
