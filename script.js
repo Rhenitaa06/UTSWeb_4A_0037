@@ -50,3 +50,173 @@ const btnCoffee = document.getElementById("btnCoffee");
 const btnNonCoffee = document.getElementById("btnNonCoffee");
 const btnFood = document.getElementById("btnFood");
 
+function tampilMenu(kategori){
+    menuContainer.innerHTML = "";
+
+    if(kategori == "all"){
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[0].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[0].name + '</h5>' +
+                    '<p class="card-price">' + menus[0].price +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[1].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[1].name + '</h5>' +
+                    '<p class="card-price">' + menus[1].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[2].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[2].name + '</h5>' +
+                    '<p class="card-price">' + menus[2].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[3].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[3].name + '</h5>' +
+                    '<p class="card-price">' + menus[3].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[4].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[4].name + '</h5>' +
+                    '<p class="card-price">' + menus[4].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[5].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[5].name + '</h5>' +
+                    '<p class="card-price">' + menus[5].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';    
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[6].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[6].name + '</h5>' +
+                    '<p class="card-price">' + menus[6].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+    }
+
+   if(kategori == "coffee"){
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[0].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[0].name +'</h5>' +
+                    '<p class="card-price">' + menus[0].price +'</p>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[1].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[1].name + '</h5>' +
+                    '<p class="card-price">' + menus[1].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[2].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[2].name + '</h5>' +
+                    '<p class="card-price">' + menus[2].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+    }
+
+    if(kategori == "noncoffee"){
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[3].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[3].name + '</h5>' +
+                    '<p class="card-price">' + menus[3].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[4].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[4].name + '</h5>' +
+                    '<p class="card-price">' + menus[4].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+    }
+    
+    if(kategori == "food"){
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[5].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[5].name + '</h5>' +
+                    '<p class="card-price">' + menus[5].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';    
+
+        menuContainer.innerHTML +=
+            '<div class="col-md-4">' +
+                '<div class="card shadow-sm">' +
+                '<img src="' + menus[6].image + '" class="card-img-top">' +
+                    '<div class="card-body">' +
+                    '<h5 class="card-title">' + menus[6].name + '</h5>' +
+                    '<p class="card-price">' + menus[6].price +'</p>' +
+                    '</div>' +
+                 '</div>' +
+            '</div>';
+    }
+}
+
+tampilMenu("all");
+ 
