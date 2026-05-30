@@ -140,3 +140,36 @@ div a:hover {
 .active-filter{
   background-color: #4A2C2A;
 }
+
+/* card menu */
+.card{
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fffaf3;
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-8px);
+}
+
+.card img{
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body{
+  padding: 25px;
+}
+
+.card-title{
+  color: #4A2C2A;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.card-price{
+  color: #8C5A3C;
+  font-size: 18px;
+}
