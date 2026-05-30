@@ -232,3 +232,11 @@ div a:hover {
   font-weight: 500;
   font-size: 18px;
 }
+
+.facilities-wrapper{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
