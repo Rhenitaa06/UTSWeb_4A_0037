@@ -49,3 +49,4 @@ const btnAll = document.getElementById("btnAll");
 const btnCoffee = document.getElementById("btnCoffee");
 const btnNonCoffee = document.getElementById("btnNonCoffee");
 const btnFood = document.getElementById("btnFood");
+
