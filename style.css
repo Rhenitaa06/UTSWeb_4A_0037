@@ -110,3 +110,10 @@ div a:hover {
   background-color: #F5E6C8;
   padding: 100px 0;
 }
+
+.menu-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+}
