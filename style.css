@@ -211,4 +211,24 @@ div a:hover {
   transform: scale(1.05);
 }
 
+/* section facilities */
 
+#Facilities{
+  background-color: #F5E6C8;
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.facilities-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+  margin-bottom: 15px;
+}
+
+.facilities-subtitle{
+  color: #8C5A3C;
+  font-weight: 500;
+  font-size: 18px;
+}
