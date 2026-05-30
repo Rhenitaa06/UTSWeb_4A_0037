@@ -365,3 +365,24 @@ div a:hover {
   color: #8C5A3C;
   font-size: 14px;
 }
+
+/* section lokasi */
+
+#Location{
+  background-color: #F5E6C8;
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+.location-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+}
+
+.location-subtitle{
+  color: #8C5A3C;
+  font-weight: 500;
+  font-size: 18px;
+}
