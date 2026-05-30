@@ -490,3 +490,51 @@ div a:hover {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* section reservation */
+
+#Reservation{
+  background-color: #FEF3E2;
+  padding: 100px 0;
+}
+
+.reservation-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+}
+
+.reservation-subtitle{
+  color: #8C5A3C;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact-form{
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form label{
+  color: #4A2C2A;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.btn-contact{
+  width: 100%;
+  background-color: #8C5A3C;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.btn-contact:hover{
+  background-color: #4A2C2A;
+}
