@@ -297,3 +297,23 @@ div a:hover {
   opacity: 1;
   z-index: 5;
 }
+
+/* section testimonials */
+
+#Testimonials{
+  background-color: #FEF3E2;
+  padding: 100px 0;
+}
+
+.testimonials-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+}
+
+.testimonials-subtitle{
+  color: #8C5A3C;
+  font-weight: 500;
+  font-size: 18px;
+}
