@@ -43,3 +43,9 @@ const menus = [
         image: "https://i.pinimg.com/1200x/ec/30/18/ec3018cfabb5a2a294ee5c63c6d6e7c3.jpg"
     }
 ];
+
+const menuContainer = document.getElementById("menu-container");
+const btnAll = document.getElementById("btnAll");
+const btnCoffee = document.getElementById("btnCoffee");
+const btnNonCoffee = document.getElementById("btnNonCoffee");
+const btnFood = document.getElementById("btnFood");
