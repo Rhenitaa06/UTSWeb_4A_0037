@@ -220,3 +220,28 @@ function tampilMenu(kategori){
 
 tampilMenu("all");
  
+
+//  DOM untukk form reservasi
+
+const btnKirim = document.getElementById("btnKirim");
+
+btnKirim.addEventListener("click", function(){
+    let nama = document.getElementById("name").value;
+    let telepon = document.getElementById("telepon").value;
+    let tanggal = document.getElementById("tanggal").value;
+    let jumlah = document.getElementById("jumlah").value;
+
+        if( nama == "" ||
+            telepon == "" ||
+            tanggal == "" ||
+            jumlah == "" ){
+            alert("Data harus diisi!");
+            return;
+        } alert("Reservasi berhasil dibuat!" );
+
+        document.getElementById("name").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("tanggal").value = "";
+
+    }
+);
