@@ -123,3 +123,20 @@ div a:hover {
   font-weight: 500;
   font-size: 18px;
 }
+
+.filter-btn{
+  border: none;
+  background-color: #C08552;
+  color: #F5E6C8;
+  padding: 12px 28px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.filter-btn:hover{
+  background-color: #4A2C2A;
+}
+
+.active-filter{
+  background-color: #4A2C2A;
+}
