@@ -53,3 +53,36 @@ section {
 .hero-content {
   padding: 120px 0 80px;
 }
+
+.hero-badge {
+  display: inline-block;
+  background: #C08552;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 7px 20px;
+  border-radius: 50px;
+  margin-bottom: 1.2 rem;
+}
+
+.hero-title {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  color: #8C5A3C;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
+.hero-title span {
+  color: #C08552;
+  font-style: italic;
+}
+
+.hero-tagline {
+  color: #CE7E5A;
+  font-size: 1.5rem;
+  max-width: 480px;
+  margin-bottom: 2.1rem;
+  line-height: 1.7;
+}
