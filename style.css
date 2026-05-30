@@ -22,3 +22,16 @@ header h1 {
   font-weight: 800;
   color: #F5E6C8;
 }
+
+nav a{
+  font-size: large;
+  font-weight: 500;
+  text-decoration: none;
+  color: #F5E6C8;
+  margin-left: 18px;
+}
+
+nav a:hover {
+  color: #4A2C2A;
+  
+}
