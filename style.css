@@ -86,3 +86,20 @@ section {
   margin-bottom: 2.1rem;
   line-height: 1.7;
 }
+
+div a {
+  background: #C08552;
+  color: #fff;
+  border: none;
+  padding: 13px 32px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+div a:hover {
+  color: #4A2C2A;
+}
