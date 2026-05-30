@@ -317,3 +317,51 @@ div a:hover {
   font-weight: 500;
   font-size: 18px;
 }
+
+.testimonial-card{
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  height: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.testimonial-card:hover{
+  transform: translateY(-10px);
+}
+
+.stars{
+  color: #C08552;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.review-text{
+  color: #4A2C2A;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.customer{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.customer img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer h5{
+  margin: 0;
+  color: #4A2C2A;
+}
+
+.customer span{
+  color: #8C5A3C;
+  font-size: 14px;
+}
