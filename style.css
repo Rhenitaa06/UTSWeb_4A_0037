@@ -538,3 +538,52 @@ div a:hover {
 .btn-contact:hover{
   background-color: #4A2C2A;
 }
+
+/* section contact */
+
+#Contact{
+  background: #F5E6C8;
+  padding: 120px 0;
+}
+
+.contact-title{
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4A2C2A;
+}
+
+.contact-subtitle{
+  color: #8C5A3C;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.contact-card{
+  background: #4A2C2A;
+  border-radius: 20px;
+  padding: 40px 25px;
+  height: 100%;
+  transition: 0.3s ease;
+}
+
+.contact-card:hover{
+  transform: translateY(-8px);
+}
+
+.contact-card i{
+  font-size: 40px;
+  color: #FEEAC9;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contact-card h4{
+  color: #FEEAC9;
+  margin-bottom: 10px;
+}
+
+.contact-card p{
+  color: #FEEAC9;
+  margin: 0;
+}
