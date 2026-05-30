@@ -50,6 +50,22 @@ const btnCoffee = document.getElementById("btnCoffee");
 const btnNonCoffee = document.getElementById("btnNonCoffee");
 const btnFood = document.getElementById("btnFood");
 
+btnAll.addEventListener("click", function(){
+    tampilMenu("all");
+});
+
+btnCoffee.addEventListener("click", function(){
+    tampilMenu("coffee");
+});
+
+btnNonCoffee.addEventListener("click", function(){
+    tampilMenu("noncoffee");
+});
+
+btnFood.addEventListener("click", function(){
+    tampilMenu("food");
+});
+
 function tampilMenu(kategori){
     menuContainer.innerHTML = "";
 
